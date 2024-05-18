@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Srijal's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li>
+              <a href="https://github.com/srijal69">Github</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/srijal-singh-thakur-617a1a225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                >linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/srijal._21?igsh=MTdpaXlzaXEweHpjZA%3D%3D&utm_source=qr"
+                >Instagram</a
+              >
+            </li>
+            <li><a href="https://twitter.com/srijal2192003">Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hello, I'm <span class="purple">Srijal Singh Thakur</span>
+          <div>And I am a Passionate</div>
+          <div>Web Developer</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn" onclick="downloadFile()">
+              Download Resume
+            </button>
+            <button class="btn" onclick="giHub()">Contact Info</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="a.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Education & Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="edu-removebg-preview.png" alt="" />
+            <div class="vertical-title">Education</div>
+
+            <div class="vertical-desc">
+              <span class="name"
+                >B.Tech(Computer Science & Engineering)<br />Bhilai Institute of
+                Technology, Durg<br />2021-2025<br /></span
+              >3rd year student pursuing Bachelor of Technology in Computer
+              Science & Engineering Specialization in Data Science.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="school.png" alt="" />
+            <div class="vertical-title">Higher Secondary School</div>
+
+            <div class="vertical-desc">
+              <span class="name">ST. Kabir's Public School, Balod <br /></span
+              >Chhattisgarh Board of Secondary Education (CGBSE) Completed in
+              2021 science stream with PCM
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Web development engineer Intern</div>
+
+            <div class="vertical-desc">
+              <span class="name">OctaNet <br />May'23-jun'23 <br /></span
+              >Completed a one month internship on Web development where i built
+              an landing page and to-do list
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="programmers.png" alt="" />
+            <div class="vertical-title">Web development engineer Intern</div>
+
+            <div class="vertical-desc">
+              <span class="name">CodSoft <br />May'24-Present <br /></span>I
+              develop a landing page and a personal Portfolio and a digital
+              calculator with help of HTML, CSS and Java Script
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="pro.png" alt="" />
+            <div class="vertical-title">Projects</div>
+
+            <div class="vertical-desc">
+              Till now I have made a price comparison website using python
+              streamlit. <br />
+              I have made ipl win predictor which is a machine learning project.
+              <br />
+              I have made a celebrity face recognition app using cnn and vgg.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ach.png" alt="" />
+            <div class="vertical-title">Achievements</div>
+
+            <div class="vertical-desc">
+              2017-2019: Played cricket at state level 3 times. <br />
+              2023: Completed a one-month intensive internship in web
+              development at Octanet, a leading web solutions company. <br />
+              2023: Successfully organized and managed AAYAM'23,a major event of
+              Astronomy at BIT, Durg <br />
+              2024: Sucessfully organized and managed a Valorant gaming event at
+              OJAS'2024 official fest of BIT, Durg
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Srijal's Developer Portfolio</h3> <br>Copyright &#169; www.srijalsportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Video Editor", "Graphic designer"],
+        typeSpeed: 50,
+      });
+      function downloadFile() {
+        window.open(
+          "https://drive.google.com/file/d/1QX7E4cpdETUVwkrPzwHmbpb_XGXibYqn/view?usp=drive_link"
+        );
+      }
+      function giHub() {
+        window.open(
+          "https://www.linkedin.com/in/srijal-singh-thakur-617a1a225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        );
+      }
+    </script>
+  </body>
+</html>
